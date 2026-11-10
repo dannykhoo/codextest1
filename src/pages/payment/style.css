@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Signika+Negative:wght@500&family=Victor+Mono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Victor+Mono:wght@700&display=swap');
+
+
+
+.font-1 {
+  font-family: 'Ubuntu'
+}
+
+.font-2 {
+  font-family: 'Baloo Tammudu 2'
+}
+
+.font-3 {
+  font-family: 'Varela Round'
+}
+
+.font-4 {
+  font-family: 'Secular One'
+}
+
+.border-left {
+  border-left: solid 10px #9a9be9;
+}
+
+
+@import "tabulator-tables/dist/css/tabulator.min.css";
+
+#table1 {
+  font-family: 'Varela Round'
+}
+
+body {
+  font-family: 'Varela Round'
+}
+
+#table1 .tabulator-header .tabulator-col {
+  background-color: #ffffff;
+  color: #32436e;
+  font: 14px arial, sans-serif;
+
+}
+
+#table1 .tabulator-footer {
+  background-color: #ffffff;
+  color: #000000;
+  font: 14px arial, sans-serif;
+  font-weight: bold;
+
+}
+
+#table1 .tabulator-col-title {
+  font-family: Ubuntu;
+  color: #393d93
+}
+
+#table1 .tabulator-headers {
+  background-color: #ffffff;
+}
+
+#table1 .tabulator-tableholder {
+  background-color: #ffffff;
+}
+
+#table1 .tabulator-header-contents {
+  background-color: #f3f5ff;
+}
+
+#table1 .tabulator-cell {
+  color: #545794
+}
+
+
+
+.highlightColor1 {
+  background-color: rgb(250, 255, 231);
+}
+
+.highlightColor2 {
+  background-color: rgb(217, 251, 255);
+}
+
+.highlightColor3 {
+  background-color: rgb(218, 245, 223);
+}
+
+.xs-rounded {
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* #table1 .tabulator-paginator .tabulator-footer {
+  background-color: #000000;
+  color: #ffffff;
+  font: 14px arial, sans-serif;
+
+} */
+
+/* #table1 .tabulator-page {
+  background-color: #ffffff;
+  color: #000000;
+  font: 14px arial, sans-serif;
+
+} */
+
+#table2 .tabulator-header .tabulator-col {
+  background-color: #ffffff;
+  color: #32436e;
+  font: 14px arial, sans-serif;
+
+}
+
+/* #table1 .tabulator-cell {
+  font: 14px arial, sans-serif;
+
+} */
+
+
+
+#table3 {
+  border-radius: 10px;
+  border: #000000
+}
+
+/* #table3 .tabulator-group {
+  background-color: #e3d8fd;
+  color: #341184;
+}
+
+#table3 .tabulator-headers {
+  background-color: #3b1b71;
+} */
+
+
+#table3 .tabulator-header .tabulator-col {
+  background-color: rgb(222, 205, 255);
+  color: #6b46ac;
+  font: 14px arial, sans-serif;
+
+}
+
+#table3 .tabulator-header-contents {
+  background-color: rgb(222, 205, 255);
+  color: #ffffff;
+  font: 14px arial, sans-serif;
+}
+
+#table3 .tabulator-tableHolder {
+  background-color: #ffeffe;
+}
+
+#table3 .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title {
+  white-space: normal;
+  text-align: center;
+  font: 14px arial, sans-serif;
+
+}
+
+#table3 .tabulator-row-odd {
+  background-color: #f2e7ff;
+}
+
+#table3 .tabulator-row-even {
+  background-color: #ffffff;
+}
+
+#table3 .tabulator-selected {
+  background-color: rgb(112, 107, 255);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+#table3 .tabulator-calcs-holder {
+  background-color: #fdf1fe !important;
+  color: rgb(104, 33, 103);
+}
+
+#table3 .tabulator-calcs-bottom {
+  background-color: #fdf1fe !important;
+  color: rgb(47, 12, 46);
+}
+
+#table3 .tabulator-calcs-top {
+  background-color: #fdf1fe !important;
+  color: rgb(104, 33, 103);
+}

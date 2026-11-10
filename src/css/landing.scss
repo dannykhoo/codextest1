@@ -1,0 +1,116 @@
+// Landing page tokens and shared primitives.
+// Section-specific styles live in the scoped blocks of their components.
+
+:root {
+  --ac-ink: #0d2137;
+  --ac-ink-2: #17324f;
+  --ac-body: #55677a;
+  --ac-muted: #7b8b9c;
+  --ac-primary: #1976d2;
+  --ac-primary-dark: #125a9e;
+  --ac-secondary: #26a69a;
+  --ac-surface: #ffffff;
+  --ac-surface-alt: #f5f9fd;
+  --ac-border: #e3ecf5;
+  --ac-radius: 18px;
+  --ac-radius-lg: 26px;
+  --ac-shadow-sm: 0 2px 10px rgba(13, 33, 55, 0.06);
+  --ac-shadow-md: 0 18px 40px -18px rgba(13, 33, 55, 0.28);
+  --ac-shadow-lg: 0 44px 90px -44px rgba(13, 33, 55, 0.5);
+  --ac-header-h: 76px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.ac-wrap {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.ac-section {
+  position: relative;
+  padding: 96px 0;
+  scroll-margin-top: var(--ac-header-h);
+}
+
+.ac-section--alt {
+  background: var(--ac-surface-alt);
+}
+
+.ac-section__head {
+  max-width: 44rem;
+  margin-bottom: 52px;
+}
+
+.ac-section__head--center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.ac-section__head--center .ac-lede {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ac-eyebrow {
+  margin: 0 0 14px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ac-primary);
+}
+
+.ac-title {
+  margin: 0 0 16px;
+  font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--ac-ink);
+}
+
+.ac-lede {
+  max-width: 38rem;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--ac-body);
+}
+
+.ac-btn {
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 0 26px;
+}
+
+.ac-btn--shadow {
+  box-shadow: var(--ac-shadow-md);
+}
+
+@media (max-width: 1023px) {
+  .ac-section {
+    padding: 68px 0;
+  }
+
+  .ac-section__head {
+    margin-bottom: 36px;
+  }
+}
